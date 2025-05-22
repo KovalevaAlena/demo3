@@ -24,7 +24,7 @@ class RequestWindow(QtWidgets.QMainWindow, Ui_MainWindow, Base):
         #Подключение кнопок
         self.add_pushButton.clicked.connect(self.create_request)
         self.update_pushButton_2.clicked.connect(self.show_request)
-        self.sostav_pushButton.clicked.connect(self.sostav_request)
+        self.sostav_pushButton.clicked.connect(self.sostav_request)z
         self.change_pushButton.clicked.connect(self.change_request)
 
         #Подключение таблиц
